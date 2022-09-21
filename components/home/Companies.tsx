@@ -12,7 +12,7 @@ interface CompaniesProps {
 const Companies = ({ companies }: CompaniesProps): ReactElement => {
     return (
         <section className="min-h-screen home-companies-section relative bg-black px-8 md:px-12 lg:px-20 py-40 grid grid-cols-1 justify-center align-center text-white">
-            <h2 className="text-5xl text-center font-semibold">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl text-center font-semibold">
                 {companies.title}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-16">
@@ -21,10 +21,10 @@ const Companies = ({ companies }: CompaniesProps): ReactElement => {
                         key={index}
                         className="grid grid-flow-col auto-cols-auto gap-4"
                     >
-                        <span className="mt-2 flex justify-center items-center h-8 w-8 rounded-full border-2 border-white">
+                        <span className="mt-2 flex justify-center items-center h-4 w-4 md:h-8 md:w-8 rounded-full border-[1px] md:border-2 border-white">
                             <svg
-                                width="24"
-                                height="24"
+                                width="20"
+                                height="20"
                                 viewBox="0 0 25 25"
                                 fill="none"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ const Companies = ({ companies }: CompaniesProps): ReactElement => {
                                 />
                             </svg>
                         </span>
-                        <p className="text-2xl">{companyType}</p>
+                        <p className="text-lg md:text-xl lg:text-2xl">{companyType}</p>
                     </div>
                 ))}
             </div>
