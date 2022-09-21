@@ -20,8 +20,8 @@ interface HomeContentI {
     design:ServiceI;
     development: ServiceI;
     other: ServiceI;
-    projects: any;
   };
+  projects: any;
 }
 const Home: NextPage = () => {
   const { hero, platforms, companies, services, projects }: HomeContentI = HomeContent;
