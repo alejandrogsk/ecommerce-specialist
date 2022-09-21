@@ -1,0 +1,60 @@
+.home-design-section {
+
+    & > div > div > .blob-1 {
+        position: absolute;
+        z-index: -1;
+        height: 900px;
+        width: auto;
+        right: -20rem;
+        top: -11rem;
+        transform: rotateX(-45deg);
+    }
+
+    & > div > div > .squares-1 {
+        position: absolute;
+        z-index: 1;
+        width: auto;
+        right: -4rem;
+        top: 15rem;
+    }
+
+    & > .points-grid {
+        position: absolute;
+        top: -10rem;
+        left: -8rem;
+        height: 100px;
+    }
+}
+
+.home-development-section {
+    & > div > div {
+        & > .blob-1 {
+            position: absolute;
+            z-index: -1;
+            width: 700px;
+            top: -6rem;
+            left: -15rem;
+            display: block;
+        }
+
+        & > .cross1 {
+            position: absolute;
+            left: 0;
+            bottom: 7rem;
+        }
+
+        & > .cross2 {
+            position: absolute;
+            left: -4rem;
+            bottom: 5rem;
+            width: 80px;
+            height: auto;
+        }
+    }
+
+}
+
+.service-list__horizontal > div:last-child > span {
+    display: none;
+    
+}

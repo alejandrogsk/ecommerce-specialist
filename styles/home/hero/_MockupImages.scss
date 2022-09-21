@@ -1,0 +1,17 @@
+.hero-phone {
+    left: 2rem;
+    @screen md {
+        top: 4rem;
+        left: 10rem;
+    }
+
+}
+
+.hero-mockup {
+    right: 3rem;
+    @screen md {
+       
+        top: 1rem;
+        left: 20rem;
+    }
+}

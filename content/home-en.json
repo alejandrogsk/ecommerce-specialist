@@ -1,0 +1,146 @@
+{
+    "hero":{
+        "title":"Ecommerce Specialist",
+        "subtitle":"I am a specialist in design and development of e-commerce websites. I have been working with several companies over the years helping them carry out their e-commerce projects.",
+        "contact": {
+            "title": "You can contact me right now!",
+            "link": "#services"
+        },
+        "cta": {
+            "title":"See services",
+            "link": "#contact"
+        },
+        "images":{
+            "mockup": {
+                "alt": "ecommerce uxui specialist",
+                "src": "/hero-mockup.png"
+            },
+            "image": {
+                "alt": "ecommerce developmer specialiced in bigcommerce",
+                "src": "/hero-image.png"
+            }
+        }
+    },
+    "platforms": [
+        {
+            "alt": "NextJs developer",
+            "src": "/nextjs-logo.png",
+            "width": 165.7
+        },
+        {
+            "alt": "Developer specialiced in bigcommmerce development",
+            "src": "/bigcommerce-logo.png",
+            "width":282
+        },
+        {
+            "alt": "Developer specialiced in shopify development",
+            "src": "/shopify.png",
+            "width":182
+        },
+        {
+            "alt": "Developer specialiced in woocommerce development",
+            "src": "/woocommerce-logo.png",
+            "width":246
+        }
+    ],
+    "companies": {
+        "title": "What kind of companies do I work with?",
+        "list": [
+            "Small business that are starting in the ecommerce field and want to stay with the right foot.",
+            "Medium size business that are already selling online and want to improve their stores by optimizing their customer experience.",
+            "Marketing agencies, startups and other digital companies that need an extra hand for their project.",
+            "Big companies that need a custom approach for the ecommerce experience that they want to bring to their customers."
+        ]
+    },
+    "services": {
+        "title": "What e-commerce services do I offer?",
+        
+        "design": {
+            "title": "Ecommerce Design",
+            "cta": {
+                "title":"Let’s Talk",
+                "link": "#contact"
+            },
+            "list": [
+                {
+                    "title": "Ecommerce theme design",
+                    "content":"For multiple platforms such as Bigcommerce,  Shopify and WooCommerce."
+                },
+                {
+                    "title": "Ecommerce landing page design", 
+                    "content":"for companies that are launching a new product, making a special offer or trying to get new leads."
+                },
+                {
+                    "title": "Ecommerce app design", 
+                    "content":"For custom applications such as SPA websites and mobile applications."
+                }
+            ],
+            "image": {
+                "alt": "Ecommerce mobile design",
+                "src": "/design-image.png"
+            }
+            
+        },
+        "development": {
+            "title": "Ecommerce Development",
+            "cta": {
+                "title":"Let’s Talk",
+                "link": "#contact"
+            },
+            "list": [
+                {
+                    "title": "Ecommerce theme development", 
+                    "content":"For multiple platforms such as Shopify Bigcommerce and WooCommerce."
+                },
+                {
+                    "title": "Ecommerce landing page development", 
+                    "content":"through the previous platforms, custom code, wordpress sites or any frontend framework."
+                },
+                {
+                    "title": "Headless ecommerce development", 
+                    "content":"Following a Headless architecture to create a modern application with a SPA site in the front and your favorite ecommerce platform in the backend."
+                }
+            ],
+            "image": {
+                "alt": "Ecommerce mobile development",
+                "src": "/development-image.png"
+            }
+        },
+        "other": {
+            "title": "Other Services",
+            
+            "list": [
+                {
+                    "title": "Integration with marketplaces",
+                    "content":"Sell on the largest marketplaces like Amazon, Ebay, MercadoLibre and others."
+                },
+                {
+                    "title": "Integration with marketing platforms",
+                    "content":"Meta for Business, Instagram Shopping, Mailchimp, Google Shopping, Google ads and others. "
+                },
+                {
+                    "title": "Analytics integration",
+                    "content":"Google analytics is the most popular option, but there are other alternatives depending on the platform you use."
+                }
+            ],
+            "list2": [
+                {
+                    "title": "Platform Migration",
+                    "content": "Companies regularly need to migrate their current store to a platform that better suits their needs."
+                },
+                {
+                    "title": "Payment integration",
+                    "content": "The most popular payment platforms such as Google Pay, Amazon Pay, PayPal, Stripe and others."
+                },
+                {
+                    "title": "Multilingual stores",
+                    "content": "Maybe you sell in more than one country or in your country more than one language is spoken."
+                }
+            ],
+            "image": {
+                "alt": "Ecommerce mobile design",
+                "src": "/other-services-image.png"
+            }
+        }
+    }
+}

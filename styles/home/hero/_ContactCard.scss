@@ -1,0 +1,11 @@
+.contact-card {
+    &__circle {
+        bottom: 5px;
+        right: 5px;
+    }
+
+    & > span {
+       border-bottom: 2px solid $c-primary;
+    
+    }
+}
