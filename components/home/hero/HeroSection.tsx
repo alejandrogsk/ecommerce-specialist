@@ -39,12 +39,13 @@ const HeroSection = ({hero}:HeroSectionProps ): ReactElement => {
         </div>
 
         <div className='relative min-h-screen md:min-h-auto mt-20 md:mt-0'>
-          <div className='absolute hero-mockup'>
-            <Image src={hero.images.mockup.src} width="253" height="550" layout='intrinsic'/>  
-          </div>
-
           <div className='absolute hero-phone'>
-            <Image src={hero.images.image.src} width="271 " height="550" layout='intrinsic'/>  
+            <Image 
+            src={hero.images.image.src} 
+              width="482.24" 
+              height="708" 
+              layout='intrinsic'
+            />  
           </div>
         </div>
 

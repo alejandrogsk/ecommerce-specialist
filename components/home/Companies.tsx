@@ -21,7 +21,7 @@ const Companies = ({ companies }: CompaniesProps): ReactElement => {
                         key={index}
                         className="grid grid-flow-col auto-cols-auto gap-4"
                     >
-                        <span className="mt-2 flex justify-center items-center h-4 w-4 md:h-8 md:w-8 rounded-full border-[1px] md:border-2 border-white">
+                        <span className="mt-2 flex justify-center items-center h-8 w-8 rounded-full border-[1px] md:border-2 border-transparent md:border-white">
                             <svg
                                 width="20"
                                 height="20"

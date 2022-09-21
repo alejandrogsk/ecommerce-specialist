@@ -13,7 +13,7 @@ interface PlatformsProps {
 
 const Platforms = ({platforms}: PlatformsProps):ReactElement => {
   return (
-    <section className='relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-60 mb-40 items-center justify-items-center	'>
+    <section className='relative grid px-8 md:px-4 lg:px-0 gap-8 md:gap-4 lg:gap-0 grid-cols-2 lg:grid-cols-4 mt-60 mb-40 items-center justify-items-center	'>
           {
             platforms.map((platform, index) => {
               return(
