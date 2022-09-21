@@ -9,6 +9,8 @@ import Platforms, {HomePlatforms} from "../components/home/Platforms";
 import Companies, {HomeCompanies} from "../components/home/Companies";
 import Services from "../components/home/Services";
 import { ServiceI } from "../types/Services";
+import Projects from '../components/home/Projects';
+import Contact from '../components/home/Contact';
 interface HomeContentI {
   hero: HeroContent;
   platforms: HomePlatforms[];
@@ -18,10 +20,11 @@ interface HomeContentI {
     design:ServiceI;
     development: ServiceI;
     other: ServiceI;
+    projects: any;
   };
 }
 const Home: NextPage = () => {
-  const { hero, platforms, companies, services }: HomeContentI = HomeContent;
+  const { hero, platforms, companies, services, projects }: HomeContentI = HomeContent;
 
   return (
     <div >
@@ -37,6 +40,8 @@ const Home: NextPage = () => {
         <Platforms platforms={platforms} />
         <Companies companies={companies}/>
         <Services services={services} />
+        <Projects projects={projects}/>
+        <Contact />
       </main>
 
       <footer>

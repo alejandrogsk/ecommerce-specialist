@@ -38,7 +38,7 @@ const HeroSection = ({hero}:HeroSectionProps ): ReactElement => {
 
         </div>
 
-        <div className='min-h-screen md:min-h-auto mt-20 md:mt-0 px-8  md:px-12'>
+        <div className=' mt-20 md:mt-0 px-8  md:px-12'>
           <div className='flex align-center justify-center'>
             <Image 
             src={hero.images.image.src} 

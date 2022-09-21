@@ -32,10 +32,14 @@
 
     & > .points-grid {
         position: absolute;
-        top: -10rem;
-        left: -8rem;
-        height: 100px;
+        top: -11rem;
+        left: -10.25rem;
         z-index: -1;
+        @screen md {
+            top: -10rem;
+            left: -8rem;
+            height: 100px;
+        }
     }
 }
 

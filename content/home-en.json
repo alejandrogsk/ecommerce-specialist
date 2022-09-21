@@ -142,5 +142,18 @@
                 "src": "/other-services-image.png"
             }
         }
+    },
+    "projects": {
+        "title": "Recent Designs",
+        "designs": [
+            {
+                "src":"/fashion.png",
+                "alt": "Fashion ecommerce design"
+            },
+            {
+                "src":"/b&b.png",
+                "alt": "Whiskey ecommerce design"
+            }
+        ]
     }
 }
