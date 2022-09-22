@@ -108,7 +108,10 @@
         },
         "other": {
             "title": "Other Services",
-            
+            "cta": {
+                "title":"Let’s Talk",
+                "link": "#contact"
+            },
             "list": [
                 {
                     "title": "Integration with marketplaces",

@@ -16,7 +16,7 @@ interface ServicesProps {
 
 const Services = ({services}: ServicesProps): ReactElement => {
   return (
-    <section className='home-services-section min-h-screen px-8 md:px-12 lg:px-28 py-40 grid grid-cols-1 justify-center align-center'>
+    <section id="services" className='home-services-section min-h-screen px-8 md:px-12 lg:px-28 py-40 grid grid-cols-1 justify-center align-center'>
         <h2 className='text-3xl md:text-4xl lg:text-5xl text-center font-semibold'>{services.title}</h2>
         
         {/**Design Service */}

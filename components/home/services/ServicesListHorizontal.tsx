@@ -4,7 +4,7 @@ interface ServiceListHorizontalProps {
     services?: ServiceListI[];
 }
 const ServicesListHorizontal = ({
-    services
+    services,
 }: ServiceListHorizontalProps): ReactElement => {
     return (
         <div className="relative  md:col-span-2 py-16">
@@ -24,6 +24,7 @@ const ServicesListHorizontal = ({
                     ))}
                 </div>
         </div>
+       
     );
 };
 

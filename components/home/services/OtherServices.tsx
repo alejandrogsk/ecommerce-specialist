@@ -122,6 +122,7 @@ const OtherServices = ({service}:OtherServicesProps):ReactElement => {
     
     <ServicesListHorizontal
         services={service.list2}
+        
     />
 </div>
   )

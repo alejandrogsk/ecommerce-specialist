@@ -32,9 +32,9 @@ const HeroSection = ({hero}:HeroSectionProps ): ReactElement => {
             <ContactCard contact={hero.contact}/>
           }
 
-          <button className='mt-12 text-base md:text-lg lg:text-xl block	bg-black hover:bg-primary linear duration-300 rounded	py-4 px-6 uppercase text-white cursor-pointer	'>
+          <a href="#services" className='text-center inline-block mt-12 text-base md:text-lg lg:text-xl block	bg-black hover:bg-primary linear duration-300 rounded	py-4 px-6 uppercase text-white cursor-pointer	'>
             {hero.cta.title}
-          </button>
+          </a>
 
         </div>
 

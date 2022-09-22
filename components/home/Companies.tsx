@@ -11,7 +11,7 @@ interface CompaniesProps {
 
 const Companies = ({ companies }: CompaniesProps): ReactElement => {
     return (
-        <section className="min-h-screen home-companies-section relative bg-black px-8 md:px-12 lg:px-20 py-40 grid grid-cols-1 justify-center align-center text-white">
+        <section  id="companies" className="min-h-screen home-companies-section relative bg-black px-8 md:px-12 lg:px-20 py-40 grid grid-cols-1 justify-center align-center text-white">
             <h2 className="text-3xl md:text-4xl lg:text-5xl text-center font-semibold">
                 {companies.title}
             </h2>
