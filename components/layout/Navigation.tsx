@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useEffect } from 'react'
 
 const Navigation = () => {
@@ -11,9 +12,11 @@ const Navigation = () => {
     <header className='z-10	 w-full bg-white'>
         <nav className="w-full bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
   <div className="flex flex-wrap justify-between items-center px-0 md:px-8 lg:px-12">
-    <a href="/" className="hidden md:block flex items-center z-10 text-base md:text-2xl uppercase font-medium">
+    <Link href="/" >
+    <a className="hidden md:block flex items-center z-10 text-base md:text-2xl uppercase font-medium">
        Alejandro Suarez
     </a>
+    </Link>
     <button onClick={handleMenu} data-collapse-toggle="navbar-default" type="button" 
     className="inline-flex items-center p-2 ml-3 text-sm text-black rounded-lg ml-auto md:hidden  focus:outline-none focus:ring-0 " aria-controls="navbar-default" aria-expanded="false">
       <span className="sr-only">Open main menu</span>
