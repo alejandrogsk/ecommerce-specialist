@@ -33,8 +33,9 @@
     & > .points-grid {
         position: absolute;
         top: -11rem;
-        left: -10.25rem;
+        left:-7rem;
         z-index: -1;
+        height: 80px;
         @screen md {
             top: -10rem;
             left: -8rem;

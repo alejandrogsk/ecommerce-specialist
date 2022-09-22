@@ -11,6 +11,7 @@ import Services from "../components/home/Services";
 import { ServiceI } from "../types/Services";
 import Projects from '../components/home/Projects';
 import Contact from '../components/home/Contact';
+import Footer from '../components/layout/Footer';
 interface HomeContentI {
   hero: HeroContent;
   platforms: HomePlatforms[];
@@ -44,9 +45,7 @@ const Home: NextPage = () => {
         <Contact />
       </main>
 
-      <footer>
-          footer
-      </footer>
+      <Footer />
     </div>
   )
 }

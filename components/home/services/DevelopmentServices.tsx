@@ -8,7 +8,7 @@ interface DevelopmentServicesProps {
 }
 const DevelopmentServices = ({ service }: DevelopmentServicesProps): ReactElement => {
     return (
-    <div className="home-development-section grid gap-16 md:gap-0 grid-cols-1 md:grid-cols-2 my-20 py-20">
+    <div className="home-development-section grid gap-16 md:gap-0 grid-cols-1 md:grid-cols-2 py-28 md:py-40">
     
     {/**Images */}
     <div className="relative row-start-2 md:row-start-1">
