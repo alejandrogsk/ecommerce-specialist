@@ -46,9 +46,9 @@ const Contact = () => {
             </button>
         </form>
         <svg className='contact-section-svg' width="150" height="530" viewBox="0 0 150 530" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="265" cy="265" r="263.5" stroke="#F93943" stroke-width="3" stroke-dasharray="6 6"/>
-<circle cx="274" cy="261" r="233.5" stroke="#F93943" stroke-width="3" stroke-dasharray="6 6"/>
-<circle cx="274" cy="261" r="203.5" stroke="#F93943" stroke-width="3" stroke-dasharray="6 6"/>
+<circle cx="265" cy="265" r="263.5" stroke="#F93943" strokeWidth="3" strokeDasharray="6 6"/>
+<circle cx="274" cy="261" r="233.5" stroke="#F93943" strokeWidth="3" strokeDasharray="6 6"/>
+<circle cx="274" cy="261" r="203.5" stroke="#F93943" strokeWidth="3" strokeDasharray="6 6"/>
 </svg>
     </section>
   )

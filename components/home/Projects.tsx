@@ -4,8 +4,10 @@ import React from 'react'
 const Projects = ({projects}:any) => {
   return (
     <section className='bg-gray-light py-28 md:py-36 lg:py-40'>
-
-        <div className='grid gap-16 md:gap-0 grid-cols-1 md:grid-cols-2'>
+<h2 className="text-3xl md:text-4xl lg:text-5xl text-center font-semibold">
+                Recent Projects
+            </h2>
+        <div className='grid gap-16 md:gap-0 grid-cols-1 md:grid-cols-2 my-16'>
             <div>
                 <Image
                 src={projects.designs[0].src}

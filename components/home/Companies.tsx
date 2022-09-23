@@ -80,7 +80,7 @@ const Companies = ({ companies }: CompaniesProps): ReactElement => {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
             >
-                <g clip-path="url(#clip0_160_340)">
+                <g clipPath="url(#clip0_160_340)">
                     <rect
                         x="105"
                         width="5"

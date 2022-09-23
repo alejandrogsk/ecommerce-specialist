@@ -34,8 +34,8 @@ const DesignServices = ({service}:DesignServicesProps): ReactElement => {
                     xmlns="http://www.w3.org/2000/svg"
                 >
                     <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M359.144 0.0173365C508.518 1.63279 613.543 126.768 661.738 266.426C712.711 414.136 718.894 587.389 595.452 684.791C455.83 794.96 252.503 808.696 110.815 701.132C-21.6283 600.585 -19.7167 415.391 35.444 259.653C86.1882 116.385 205.482 -1.64448 359.144 0.0173365Z"
                         fill="#F93943"
                     />
@@ -48,7 +48,7 @@ const DesignServices = ({service}:DesignServicesProps): ReactElement => {
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                 >
-                    <g clip-path="url(#clip0_160_474)">
+                    <g clipPath="url(#clip0_160_474)">
                         <rect width="5" height="5" rx="2.5" fill="white" />
                         <rect
                             x="35"
