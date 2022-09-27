@@ -32,6 +32,7 @@ const Platforms = ({platforms}: PlatformsProps):ReactElement => {
           }
        </section>
   )
+  
 }
 
 export default Platforms

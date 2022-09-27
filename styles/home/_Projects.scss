@@ -1,0 +1,11 @@
+.projects-svg {
+    position: absolute;
+    top:2rem;
+    right: -7rem;
+    height: 100px;
+
+    @screen md {
+        top:6rem;
+    right: 2rem;
+    }
+}

@@ -8,7 +8,11 @@ export interface ServiceI {
     list: ServiceListI[];
     list2?: ServiceListI[];
     image: { alt: string; src: string };
-    cta?: {
+    ctaVertical?: {
+        title: string;
+        link: string;
+    };
+    ctaHorizontal?: {
         title: string;
         link: string;
     }

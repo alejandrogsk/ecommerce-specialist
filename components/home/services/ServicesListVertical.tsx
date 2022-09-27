@@ -4,7 +4,7 @@ interface ServiceListVerticalProps {
     service: ServiceI;
 }
 const ServicesListVertical = ({service}: ServiceListVerticalProps): ReactElement => {
-    const { title, list, cta } = service;
+    const { title, list, ctaVertical } = service;
     return (
     <div className='grid grid-cols-[35px_1fr]'>
                 <h3 className="col-start-2 col-end-3 text-2xl lg:text-3xl uppercase font-semibold">
@@ -29,9 +29,9 @@ const ServicesListVertical = ({service}: ServiceListVerticalProps): ReactElement
                 </div>
                 {
                     
-                cta&&
-                <a  href="#contact" className="text-center inline-block col-start-2 col-end-3 w-44	 font-medium mt-12 text-base md:text-lg lg:text-xl block  hover:text-white bg-black	hover:bg-primary linear duration-300 rounded text-white py-4 px-6 uppercase cursor-pointer	">
-                    {cta.title}
+                    ctaVertical&&
+                <a  href={ctaVertical.link} className="text-center inline-block col-start-2 col-end-3 w-44	 font-medium mt-12 text-base md:text-lg lg:text-xl block  hover:text-white bg-black	hover:bg-primary linear duration-300 rounded text-white py-4 px-6 uppercase cursor-pointer	">
+                    {ctaVertical.title}
                 </a>
                 }
             </div>

@@ -10,10 +10,10 @@ const Navigation = () => {
 
   return (
     <header className='z-10	 w-full bg-white'>
-        <nav className="w-full bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+        <nav className="w-full bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded ">
   <div className="bg-white flex flex-wrap justify-between items-center px-0 md:px-8 lg:px-12">
     <Link href="/" >
-    <a className="hidden md:block flex items-center z-10 text-base md:text-2xl uppercase font-medium">
+    <a className="block flex items-center z-10 text-base md:text-2xl uppercase font-medium">
        Alejandro Suarez
     </a>
     </Link>
@@ -29,15 +29,18 @@ const Navigation = () => {
     </button>
     
     <div className={`${isOpen ? 'bloack' : 'hidden'} w-full md:block md:w-auto bg-white`} id="navbar-default">
-      <ul className="flex flex-col p-4 mt-4  bg-gray-50 rounded-lg border border-gray-100 md:hover:text-primary md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <ul className="flex flex-col p-4 mt-4  bg-white rounded-lg border border-gray-100 md:hover:text-primary md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  ">
         <li>
-          <a onClick={()=>setIsOpen(false)} href="#companies" className="text-xl block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Companies</a>
+          <a onClick={()=>setIsOpen(false)} href="#companies" className="text-xl block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ">Companies</a>
         </li>
         <li>
-          <a onClick={()=>setIsOpen(false)} href="#services" className="text-xl block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+          <a onClick={()=>setIsOpen(false)} href="#services" className="text-xl block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ">Services</a>
         </li>
         <li>
-          <a onClick={()=>setIsOpen(false)} href="#contact" className="text-xl block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact Me</a>
+          <a onClick={()=>setIsOpen(false)} href="#projects" className="text-xl block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ">Projects</a>
+        </li>
+        <li>
+          <a onClick={()=>setIsOpen(false)} href="#contact" className="text-xl block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ">Contact Me</a>
         </li>
       </ul>
     </div>

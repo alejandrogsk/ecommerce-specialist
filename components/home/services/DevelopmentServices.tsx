@@ -8,11 +8,11 @@ interface DevelopmentServicesProps {
 }
 const DevelopmentServices = ({ service }: DevelopmentServicesProps): ReactElement => {
     return (
-    <div className="home-development-section grid gap-16 md:gap-0 grid-cols-1 md:grid-cols-2 py-28 md:py-40">
+    <div className="home-development-section grid gap-16 md:gap-0 grid-cols-1 md:grid-cols-2 py-16 lg:py-28 md:py-40">
     
     {/**Images */}
-    <div className="relative row-start-2 md:row-start-1">
-        <div className="relative flex justify-center align-center">
+    <div className="relative row-start-2 md:row-start-1 ">
+        <div className="relative flex justify-center align-center my-16 md:my-0">
 
         <Image
             src={service.image.src}

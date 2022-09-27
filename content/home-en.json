@@ -57,7 +57,7 @@
         
         "design": {
             "title": "Ecommerce Design",
-            "cta": {
+            "ctaVertical": {
                 "title":"Let’s Talk",
                 "link": "#contact"
             },
@@ -83,7 +83,7 @@
         },
         "development": {
             "title": "Ecommerce Development",
-            "cta": {
+            "ctaVertical": {
                 "title":"Let’s Talk",
                 "link": "#contact"
             },
@@ -108,7 +108,7 @@
         },
         "other": {
             "title": "Other Services",
-            "cta": {
+            "ctaHorizontal": {
                 "title":"Let’s Talk",
                 "link": "#contact"
             },
@@ -158,5 +158,55 @@
                 "alt": "Whiskey ecommerce design"
             }
         ]
+    },
+    "contact": {
+        "title": "I want to know more about your project",
+        "subtitle": "Please complete the form and I will answer you as soon as possible.",
+        "form": {
+            "name": {
+                "name": "userName",
+                "placeholder": "Name"
+            },
+            "lastName": {
+                "name": "userLastName",
+                "placeholder": "Last Name"
+            },
+            "email": {
+                "name": "userEmail",
+                "placeholder": "Email"
+            },
+            "phone": {
+                "name": "userPhone",
+                "placeholder": "Phone (WhatsApp)"
+            },
+            "country": {
+                "name": "userCountry",
+                "placeholder": "Country"
+            },
+            "state": {
+                "name": "userState",
+                "placeholder": "State"
+            },
+            "city": {
+                "name": "userCity",
+                "placeholder": "City"
+            },
+            "company": {
+                "name": "userCompany",
+                "placeholder": "Company Website or name"
+            },
+            "message": {
+                "name": "userMessage",
+                "placeholder": "Tell me about your project"
+            },
+            "file": {
+                "name": "fileValue",
+                "placeholder": "Do you have any specific requirement?"
+            },
+            "button": {
+                "name":"button",
+                "placeholder":"Submit"
+              }
+        }
     }
 }

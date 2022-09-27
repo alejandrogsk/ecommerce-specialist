@@ -1,7 +1,8 @@
 .contact-section-svg {
     position: absolute;
     top: 10rem;
-    right: -8rem;
+    right: -9rem;
+    z-index: 1;
     @screen md {
         right: -4rem;
     }

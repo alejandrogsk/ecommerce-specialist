@@ -8,6 +8,7 @@ import Platforms, {HomePlatforms} from "../components/home/Platforms";
 import Companies, {HomeCompanies} from "../components/home/Companies";
 import Services from "../components/home/Services";
 import { ServiceI } from "../types/Services";
+import { ContactI } from "../types/Contact";
 import Projects from '../components/home/Projects';
 import Contact from '../components/home/Contact';
 import Footer from '../components/layout/Footer';
@@ -22,12 +23,13 @@ interface HomeContentI {
     other: ServiceI;
   };
   projects: any;
+  contact: ContactI;
 }
 interface HomeProps {
   content: HomeContentI;
 }
 const Home: NextPage<HomeProps> = ({content}) => {
-  const { hero, platforms, companies, services, projects }: HomeContentI = content;
+  const { hero, platforms, companies, services, projects, contact }: HomeContentI = content;
 
   return (
     <div >
@@ -44,7 +46,7 @@ const Home: NextPage<HomeProps> = ({content}) => {
         <Companies companies={companies}/>
         <Services services={services} />
         <Projects projects={projects}/>
-        <Contact />
+        <Contact contact={contact} />
       </main>
 
       <Footer />

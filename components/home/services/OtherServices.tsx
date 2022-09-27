@@ -9,13 +9,13 @@ interface OtherServicesProps {
 }
 const OtherServices = ({service}:OtherServicesProps):ReactElement => {
   return (
-    <div className="home-other-section grid gap-16 md:gap-0 grid-cols-1 md:grid-cols-2 py-28 md:py-40">
+    <div className="home-other-section grid gap-16 md:gap-0 grid-cols-1 md:grid-cols-2 py-16 md:py-28 lg:py-40">
     {/**Content */}
     <ServicesListVertical service={service} />
 
     
     {/**Images */}
-    <div className="relative">
+    <div className="relative my-16 md:my-0">
         <div className="relative flex justify-center align-center">
 
         <Image
@@ -122,7 +122,7 @@ const OtherServices = ({service}:OtherServicesProps):ReactElement => {
     
     <ServicesListHorizontal
         services={service.list2}
-        
+        cta={service.ctaHorizontal}
     />
 </div>
   )
