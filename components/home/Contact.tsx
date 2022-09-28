@@ -17,7 +17,7 @@ const Contact = ({contact}:ContactProps):ReactElement => {
     //       <circle cx="274" cy="261" r="203.5" stroke="#F93943" strokeWidth="3" strokeDasharray="6 6"/>
     //     </svg>
     // </section>
-    <section className='bg-black min-h-80 flex flex-col justify-center items-center pt-40 pb-20'>
+    <section id="contact" className='bg-black min-h-80 flex flex-col justify-center items-center pt-40 pb-20'>
       <h2 className='text-center text-white text-3xl md:text-4xl lg:text-5xl text-center font-semibold'>{contact.title}</h2>
       <p className='py-8 text-center text-white text-lg md:text-xl lg:text-2xl'>{contact.subtitle}</p>
       <a href="https://www.upwork.com/freelancers/~0151c39a3d218a5ba5?viewMode=1" target="_blank" className='hover:bg-primary linear duration-300 cursor-pointer font-medium uppercase text-base md:text-lg lg:text-xl w-80 text-center py-4 rounded inline-block text-white border-2 border-primary'>Contact me on upwork</a> 
