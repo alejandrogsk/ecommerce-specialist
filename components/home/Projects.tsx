@@ -8,21 +8,19 @@ const Projects = ({projects}:any) => {
             Recent Projects    
         </h2>
         <div className=' grid gap-16 md:gap-0 grid-cols-1 md:grid-cols-2 my-16'>
-            <div>
+            {
+                projects.designs.map((project:any,i:any) => (
+<div key={i}>
                 <Image
-                src={projects.designs[0].src}
+                src={project.src}
+                alt={project.alt}
                 width={1239} height={663} 
                 />
-                <h3 className='text-xl text-center mt-6 md:mt-12'>Ecommerce design for a fashion store <a className='text-primary cursor-pointer'>Open in figma.</a></h3>
+                <h3 className='text-xl text-center mt-6 md:mt-12'>Ecommerce design for a fashion store <a target="_blank" href={project.link} className='text-primary cursor-pointer'>Open in figma.</a></h3>
             </div>
-            <div>
-            <Image
-                src={projects.designs[1].src}
-                width={1239} height={663} 
-                />
-                <h3 className='text-xl text-center mt-6 md:mt-12'>Ecommerce design for a liquor store <a className='text-primary cursor-pointer'>Open in figma.</a></h3>
-            
-            </div>
+                ))
+            }
+
         </div>
         <svg className='projects-svg' width="185" height="158" viewBox="0 0 185 158" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="5" height="5" rx="2.5" fill="#F93943"/>

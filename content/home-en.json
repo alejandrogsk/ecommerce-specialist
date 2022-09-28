@@ -151,11 +151,13 @@
         "designs": [
             {
                 "src":"/fashion.png",
-                "alt": "Fashion ecommerce design"
+                "alt": "Fashion ecommerce design",
+                "link": "https://www.figma.com/file/qXS4UeHPCnR1c1AtH6wvix/Ecommerce-Template?node-id=0%3A1"
             },
             {
                 "src":"/b&b.png",
-                "alt": "Whiskey ecommerce design"
+                "alt": "Whiskey ecommerce design",
+                "link": "https://www.figma.com/file/EwFksWWJwk9r2t9hBAEBjk/Licor-Theme?node-id=0%3A1"
             }
         ]
     },
