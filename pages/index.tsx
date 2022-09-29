@@ -36,7 +36,7 @@ const Home: NextPage<HomeProps> = ({content}) => {
       <Head>
         <title>Ecommerce Specialist</title>
         <meta name="description" content="Ecommerce developer specialized in bigcommerce" />
-        <link rel="icon" href="/favicon.ico" />
+       
       </Head>
       <main className='overflow-x-hidden' >  
         <div className='z-0 hidden md:block h-60 w-36 rotate-45 -translate-x-28 	-translate-y-28 	 absolute bg-primary'></div>
