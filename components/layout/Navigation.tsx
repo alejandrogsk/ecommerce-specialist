@@ -22,9 +22,9 @@ const Navigation = () => {
       <span className="sr-only">Open main menu</span>
       {/* <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg> */}
       <p className='text-base uppercase font-medium'>Menu</p>
-      <div className='ml-2 h-4 w-6 flex flex-col justify-around'>
-        <span className='block w-6 h-0.5 bg-black'></span>
-        <span className='block w-6 h-0.5 bg-black'></span>
+      <div className={`transition-all	duration-300	 ml-2 h-4 w-6 flex flex-col justify-around ${isOpen&&'mobile-icon-open'}`}>
+        <span className='transition-all	duration-300 block w-6 h-0.5 bg-black'></span>
+        <span className='transition-all	duration-300 block w-6 h-0.5 bg-black'></span>
       </div>
     </button>
     

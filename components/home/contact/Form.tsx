@@ -52,7 +52,7 @@ const Form = ({ formData }: FormProps) => {
             headers: { "Content-type": "application/json; charset=UTF-8" },
         });
         let res = await req.json();
-        if (res.statusCode === 200) {
+        if (req.status === 200) {
             resetInputs();
         }
         setResMessage(res.message);
@@ -73,6 +73,7 @@ const Form = ({ formData }: FormProps) => {
                 value={userName}
                 onChange={handleImputChange}
                 required
+                autoComplete="off"
             />
             <input
                 type="text"
@@ -83,6 +84,7 @@ const Form = ({ formData }: FormProps) => {
                 value={userLastName}
                 onChange={handleImputChange}
                 required
+                autoComplete="off"
             />
             <input
                 type="email"
@@ -93,6 +95,7 @@ const Form = ({ formData }: FormProps) => {
                 value={userEmail}
                 onChange={handleImputChange}
                 required
+                autoComplete="off"
             />
 
             <input
@@ -104,6 +107,7 @@ const Form = ({ formData }: FormProps) => {
                 value={userPhone}
                 onChange={handleImputChange}
                 required
+                autoComplete="off"
             />
 
             <input
@@ -115,6 +119,7 @@ const Form = ({ formData }: FormProps) => {
                 value={userCompany}
                 onChange={handleImputChange}
                 required
+                autoComplete="off"
             />
 
             <input
@@ -126,6 +131,7 @@ const Form = ({ formData }: FormProps) => {
                 value={userCountry}
                 onChange={handleImputChange}
                 required
+                autoComplete="off"
             />
 
             <input
@@ -137,6 +143,7 @@ const Form = ({ formData }: FormProps) => {
                 value={userState}
                 onChange={handleImputChange}
                 required
+                autoComplete="off"
             />
 
             <input
@@ -148,6 +155,7 @@ const Form = ({ formData }: FormProps) => {
                 value={userCity}
                 onChange={handleImputChange}
                 required
+                autoComplete="off"
             />
             {/**File */}
             {/* <div>

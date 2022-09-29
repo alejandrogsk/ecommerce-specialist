@@ -1,0 +1,13 @@
+.mobile-icon-open {
+    position: relative;
+
+    & > span:first-child {
+        position: absolute;
+        transform: rotateZ(225deg);
+    }
+
+    & > span:last-child {
+        position: absolute;
+        transform: rotateZ(-225deg);
+    }
+}
