@@ -19,7 +19,7 @@ const OtherServices = ({service}:OtherServicesProps):ReactElement => {
         <div className="relative flex justify-center align-center">
 
         <Image
-            src={service.image.src}
+            src={service.images.image.src}
             width="544"
             height="544"
             layout="intrinsic"

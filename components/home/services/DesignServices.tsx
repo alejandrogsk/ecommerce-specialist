@@ -15,16 +15,16 @@ const DesignServices = ({service}:DesignServicesProps): ReactElement => {
         />
         {/**Images */}
         <div className="relative my-16 md:my-0">
-            <div className="relative flex justify-center align-center">
-
+            <div className="relative h-full flex justify-center items-center">
+                <div>
                     <Image
-                        src={service.image.src}
-                        alt={service.image.alt}
-                        width="253"
-                        height="550"
+                        src={service.images.image.src}
+                        alt={service.images.image.alt}
+                        width={service.images.image.width}
+                        height={service.images.image.height}
                         layout="intrinsic"
-                    />
-                
+                        />
+                </div>
                 <svg
                     className="blob-1"
                     width="696"

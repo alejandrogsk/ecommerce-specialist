@@ -5,7 +5,7 @@ const Projects = ({projects}:any) => {
   return (
     <section id="projects" className='relative bg-gray-light px-8 md:px-12 lg:px-28 py-40'>
         <h2 className="text-3xl md:text-4xl lg:text-5xl text-center font-semibold pb-0 md:pb-8 lg:pb-16">
-            Recent Projects    
+            {projects.title}    
         </h2>
         <div className=' grid gap-16 md:gap-0 grid-cols-1 md:grid-cols-2 my-16'>
             {
@@ -16,7 +16,7 @@ const Projects = ({projects}:any) => {
                 alt={project.alt}
                 width={1239} height={663} 
                 />
-                <h3 className='text-xl text-center mt-6 md:mt-12'>Ecommerce design for a fashion store <a rel="noopener noreferrer" target="_blank" href={project.link} className='text-primary cursor-pointer'>Open in figma.</a></h3>
+                <h3 className='text-xl text-center mt-6 md:mt-12'>{project.title} <a rel="noopener noreferrer" target="_blank" href={project.link} className='text-primary cursor-pointer'>Open in figma.</a></h3>
             </div>
                 ))
             }

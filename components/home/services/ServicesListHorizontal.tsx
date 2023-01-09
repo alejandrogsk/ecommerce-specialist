@@ -28,7 +28,7 @@ const ServicesListHorizontal = ({
                         cta &&
                         <div className="col-start-1 col-end-2 md:col-end-4 flex align-center justify-center mt-0 md:mt-8 lg:mt-16">
                             <a href={cta.link}
-                            className="text-center inline-block w-44	 font-medium mt-12 text-base md:text-lg lg:text-xl block  hover:text-white bg-black	hover:bg-primary linear duration-300 rounded text-white py-4 px-6 uppercase cursor-pointer	"
+                            className="text-center inline-block	 font-medium mt-12 text-base md:text-lg lg:text-xl block  hover:text-white bg-black	hover:bg-primary linear duration-300 rounded text-white py-4 px-8 uppercase cursor-pointer	"
                         >
                             {cta.title}
                         </a>

@@ -5,6 +5,7 @@ export interface HomePlatforms {
     alt:string;
     src:string;
     width: number;
+    height:number;
 }
 
 interface PlatformsProps {
@@ -17,16 +18,15 @@ const Platforms = ({platforms}: PlatformsProps):ReactElement => {
           {
             platforms.map((platform, index) => {
               return(
-                <div key={index}>
-                <Image 
-                  src={platform.src}
-                  alt={platform.alt} 
-                  height={100}
-                  width={platform.width}
-                  layout='intrinsic'
-                />
-              
-              </div>
+                <div key={index} >
+                  <Image 
+                    src={platform.src}
+                    alt={platform.alt} 
+                    height={platform.height}
+                    width={platform.width}
+                    layout='intrinsic'
+                  />
+                </div>
               )
             })
           }

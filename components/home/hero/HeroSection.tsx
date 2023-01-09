@@ -13,8 +13,8 @@ export interface HeroContent {
       link: string;
     },
     images: {
-      mockup: { alt:string; src:string;},
-      image: { alt:string; src:string;}
+      mockup: { alt:string; src:string; width:string; height:string},
+      image: { alt:string; src:string; width:string; height:string}
     }
 }
 
@@ -40,12 +40,22 @@ const HeroSection = ({hero}:HeroSectionProps ): ReactElement => {
 
         <div className=' mt-20 md:mt-0 px-8  md:px-12'>
           <div className='flex align-center justify-center'>
-            <Image 
-            src={hero.images.image.src} 
-              width="482.24" 
-              height="708" 
-              layout='intrinsic'
-            />  
+            <div className='translate-x-[15px] md:translate-x-[50px]  translate-y-[0px] md:translate-y-[75px]'>
+              <Image 
+                src={hero.images.mockup.src} 
+                width={hero.images.mockup.width} 
+                height={hero.images.mockup.height} 
+                layout='intrinsic'
+              />  
+            </div>
+            <div className='translate-x-[-15px] md:translate-x-[-50px]  translate-y-[-25px] md:translate-y-[50px]'>
+              <Image 
+                src={hero.images.image.src} 
+                width={hero.images.image.width} 
+                height={hero.images.image.height} 
+                layout='intrinsic'
+              />  
+            </div>
           </div>
         </div>
 

@@ -1,4 +1,8 @@
 {
+    "head": {
+        "title": "Developer specialist in ecommerce development",
+        "description": "I am a developer specialized in ecommerce platforms such as Shopify, WooCommerce and BigCommerce"
+    },
     "hero":{
         "title":"Ecommerce Specialist",
         "subtitle":"I am a specialist in design and development of e-commerce websites. I have been working with several companies over the years helping them carry out their e-commerce projects.",
@@ -12,12 +16,16 @@
         },
         "images":{
             "mockup": {
-                "alt": "ecommerce uxui specialist",
-                "src": "/hero-mockup.png"
+                "alt": "Ecommerce designer specialized in wine stores",
+                "src": "/wines-mock-2-en.png",
+                "height": 550,
+                "width": 272
             },
             "image": {
-                "alt": "ecommerce developmer specialiced in bigcommerce",
-                "src": "/hero-image.png"
+                "alt": "Ecommerce developer specialiced in wine store",
+                "src": "/wines-mock-1-en.png",
+                "height": 550,
+                "width": 272
             }
         }
     },
@@ -25,22 +33,26 @@
         {
             "alt": "NextJs developer",
             "src": "/nextjs-logo.png",
-            "width": 165.7
+            "width": 165.7,
+            "height": 100
         },
         {
             "alt": "Developer specialiced in bigcommmerce development",
             "src": "/bigcommerce-logo.png",
-            "width":282
+            "width":282,
+            "height": 100
         },
         {
             "alt": "Developer specialiced in shopify development",
             "src": "/shopify.png",
-            "width":182
+            "width":182,
+            "height": 100
         },
         {
             "alt": "Developer specialiced in woocommerce development",
             "src": "/woocommerce-logo.png",
-            "width":246
+            "width":480,
+            "height": 90
         }
     ],
     "companies": {
@@ -68,16 +80,20 @@
                 },
                 {
                     "title": "Ecommerce landing page design", 
-                    "content":"for companies that are launching a new product, making a special offer or trying to get new leads."
+                    "content":"For companies that are launching a new product, making a special offer or trying to get new leads."
                 },
                 {
                     "title": "Ecommerce app design", 
                     "content":"For custom applications such as SPA websites and mobile applications."
                 }
             ],
-            "image": {
-                "alt": "Ecommerce mobile design",
-                "src": "/design-image.png"
+            "images": {
+                "image": {
+                    "alt": "Ecommerce store designer",
+                    "src": "/watches-mock-1-en.png",
+                    "width": 600,
+                    "height":312
+                }
             }
             
         },
@@ -101,9 +117,19 @@
                     "content":"Following a Headless architecture to create a modern application with a SPA site in the front and your favorite ecommerce platform in the backend."
                 }
             ],
-            "image": {
-                "alt": "Ecommerce mobile development",
-                "src": "/development-image.png"
+            "images": {
+                "mockup": {
+                    "alt": "Ecommerce mobile design",
+                    "src": "/shoes-mock-2-en.png",
+                    "height": 550,
+                    "width": 272
+                },
+                "image": {
+                    "alt": "Ecommerce mobile design",
+                    "src": "/shoes-mock-1-en.png",
+                    "height": 550,
+                    "width": 272
+                }
             }
         },
         "other": {
@@ -140,9 +166,11 @@
                     "content": "Maybe you sell in more than one country or in your country more than one language is spoken."
                 }
             ],
-            "image": {
-                "alt": "Ecommerce mobile design",
-                "src": "/other-services-image.png"
+            "images": {
+                "image": {
+                    "alt": "Ecommerce integration",
+                    "src": "/other-services-image.png"
+                }
             }
         }
     },
@@ -152,12 +180,14 @@
             {
                 "src":"/fashion.png",
                 "alt": "Fashion ecommerce design",
-                "link": "https://www.figma.com/file/qXS4UeHPCnR1c1AtH6wvix/Ecommerce-Template?node-id=0%3A1"
+                "link": "https://www.figma.com/file/qXS4UeHPCnR1c1AtH6wvix/Ecommerce-Template?node-id=0%3A1",
+                "title": "Ecommerce design for a fashion store."
             },
             {
                 "src":"/b&b.png",
                 "alt": "Whiskey ecommerce design",
-                "link": "https://www.figma.com/file/EwFksWWJwk9r2t9hBAEBjk/Licor-Theme?node-id=0%3A1"
+                "link": "https://www.figma.com/file/EwFksWWJwk9r2t9hBAEBjk/Licor-Theme?node-id=0%3A1",
+                "title": "Ecommerce design for a whiskey store."
             }
         ]
     },

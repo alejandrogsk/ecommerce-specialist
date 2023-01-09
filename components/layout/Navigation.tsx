@@ -36,9 +36,9 @@ const Navigation = () => {
         <li>
           <a onClick={()=>setIsOpen(false)} href="#services" className="text-xl block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ">Services</a>
         </li>
-        <li>
+        {/* <li>
           <a onClick={()=>setIsOpen(false)} href="#projects" className="text-xl block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ">Projects</a>
-        </li>
+        </li> */}
         <li>
           <a onClick={()=>setIsOpen(false)} href="#contact" className="text-xl block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ">Contact Me</a>
         </li>

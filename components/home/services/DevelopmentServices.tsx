@@ -14,12 +14,27 @@ const DevelopmentServices = ({ service }: DevelopmentServicesProps): ReactElemen
     <div className="relative row-start-2 md:row-start-1 ">
         <div className="relative flex justify-center align-center my-16 md:my-0">
 
-        <Image
-            src={service.image.src}
-            width="253"
-            height="550"
-            layout="intrinsic"
-        />
+        <div className='flex align-center justify-center'>
+            <div className='translate-x-[15px] md:translate-x-[50px]  translate-y-[0px] md:translate-y-[75px]'>
+  
+              <Image 
+               src={service.images.mockup.src} 
+               width={service.images.mockup.width} 
+               height={service.images.mockup.height} 
+               alt={service.images.mockup.alt}
+                layout='intrinsic'
+              />  
+            </div>
+            <div className='translate-x-[-15px] md:translate-x-[-50px]  translate-y-[-25px] md:translate-y-[50px]'>
+            <Image 
+                src={service.images.image.src} 
+                width={service.images.image.width} 
+                height={service.images.image.height} 
+                alt={service.images.image.alt}
+                layout='intrinsic'
+              />
+            </div>
+          </div>
             
             <svg
                 className="blob-1"

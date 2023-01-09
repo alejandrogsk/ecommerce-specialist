@@ -7,7 +7,6 @@ export interface ServiceI {
     title: string;
     list: ServiceListI[];
     list2?: ServiceListI[];
-    image: { alt: string; src: string };
     ctaVertical?: {
         title: string;
         link: string;
@@ -16,6 +15,10 @@ export interface ServiceI {
         title: string;
         link: string;
     }
+    images: {
+        mockup: { alt:string; src:string; width:string; height:string},
+        image: { alt:string; src:string; width:string; height:string}
+      }
 }
 
 export interface HomeServices {

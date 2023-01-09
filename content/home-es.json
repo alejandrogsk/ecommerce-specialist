@@ -1,0 +1,243 @@
+{
+    "head": {
+        "title": "Especialista en ecommerce",
+        "description": "Soy desarrollador especializado en plataformas de comercio electrónico como Shopify, WooCommerce y Tienda Nube"
+    },
+    "hero": {
+        "title":"Desarrollador de ecommerce",
+        "subtitle":"Trabajo con empresas que buscan aumentar su facturación a través de canales digitales. Mi objetivo es ayudar a tu empresa a lograr sus objetivos a través de una tienda online que no solo se vea bien sino que también funcione perfectamente.",
+        "contact": {
+            "title": "¡Contactame ahora mismo!",
+            "link": "#services"
+        },
+        "cta": {
+            "title":"Ver Servicios",
+            "link": "#contact"
+        },
+        "images":{
+            "mockup": {
+                "alt": "ecommerce developmer specialiced in shopify",
+                "src": "/wine-2-moock.png",
+                "height": 550,
+                "width": 272
+            },
+            "image": {
+                "alt": "ecommerce developmer specialiced in shopify",
+                "src": "/wine-moock.png",
+                "height": 550,
+                "width": 272
+            }
+        }
+    },
+    "platforms": [
+        {
+            "alt": "Desarrollador especialista en NextJs",
+            "src": "/nextjs-logo.png",
+            "width": 165.7,
+            "height": 100
+        },
+        
+        {
+            "alt": "Desarrollador especialista en shopify",
+            "src": "/shopify.png",
+            "width":182,
+            "height": 100
+        },
+        {
+            "alt": "Desarrollador especialista en woocommerce",
+            "src": "/woocommerce-logo.png",
+            "width": 246,
+            "height": 100
+        },
+        {
+            "alt": "Desarrollador especialista en tienda nube",
+            "src": "/tiendanube-logo.png",
+            "width":533,
+            "height": 100
+        }
+    ],
+    "companies": {
+        "title": "¿Con qué tipo de empresas trabajo?",
+        "list": [
+            "Pequeñas empresas que se están iniciando en el comercio electrónico y quieren empezar con el pie derecho.",
+            "Empresas medianas que ya están vendiendo online y quieren mejorar sus tiendas optimizando algún aspecto en particular de su tienda.",
+            "Agencias de marketing, startups y otras empresas digitales que necesitan una mano extra para sus proyectos.",
+            "Grandes empresas que necesitan un enfoque personalizado para la experiencia de comercio electrónico que quieren brindar a sus clientes."
+        ]
+    },
+    "services": {
+        "title": "¿Qué servicios de ecommerce ofrezco?",
+        
+        "design": {
+            "title": "Diseño de ecommerce",
+            "ctaVertical": {
+                "title":"Contactame",
+                "link": "#contact"
+            },
+            "list": [
+                {
+                    "title": "Diseño a medida de tu tienda",
+                    "content":"Para múltiples plataformas como Shopify, WooCommerce y Tienda Nube."
+                },
+                {
+                    "title": "Diseño de Landing Page para ecommerce", 
+                    "content":"Para empresas que están lanzando un nuevo producto, haciendo una oferta especial o tratando de obtener nuevos clientes potenciales."
+                },
+                {
+                    "title": "Diseño de aplicaciones de comercio electrónico", 
+                    "content":"Para aplicaciones más grandes como aplicaciones SPA o aplicaciones móviles."
+                }
+            ],
+            "images": {
+                "image": {
+                    "alt": "Diseñador de tiendas online",
+                    "src": "/watches-mock.png",
+                    "width": 600,
+                    "height":312
+                }
+            }
+            
+        },
+        "development": {
+            "title": "Desarrollo de Ecommerce",
+            "ctaVertical": {
+                "title":"Contactame",
+                "link": "#contact"
+            },
+            "list": [
+                {
+                    "title": "Desarrollador de ecommerce", 
+                    "content":"Para múltiples plataformas como Shopify, WooCommerce y Tienda Nube."
+                },
+                {
+                    "title": "Desarrollo de landing pages", 
+                    "content":"A través de las plataformas anteriores, sitios wordpress, React o NextJS."
+                }
+            ],
+            "images": {
+                "mockup": {
+                    "alt": "Ecommerce developer",
+                    "src": "/shoes-2-mock.png",
+                    "height": 550,
+                "width": 272
+                },
+                "image": {
+                    "alt": "Ecommerce store developer",
+                    "src": "/shoes-mock.png",
+                    "height": 550,
+                    "width": 272
+                }
+            }
+        },
+        "other": {
+            "title": "Otros Servicios Solicitados",
+            "ctaHorizontal": {
+                "title":"Contactame",
+                "link": "#contact"
+            },
+            "list": [
+                {
+                    "title": "CRO o Optimización de ratio de conversión",
+                    "content": "Optimizo la performance de tu tienda para que genere más ventas y puedas sacarle más provecho a las visitas."
+                },
+                {
+                    "title": "Integración con marketplaces",
+                    "content":"Vendé en plataformas de terceroms como Mercado Libre, Facebook Marketplace, Ebay, Amazon, etc."
+                },
+                {
+                    "title": "Integración con plataformas de marketing digital",
+                    "content":"Meta for Business, Instagram Shopping, Sendinblue, Google Shopping, Google Ads, etc."
+                }
+            ],
+            "list2": [
+                {
+                    "title": "Integración con herramientas de analítica",
+                    "content":"Medí los datos de tu tienda con herramientas especializadas como Google Analytics, Hotjar y demas plataformas de análisis datos."
+                },
+                {
+                    "title": "Integración con pasarelas de pagos",
+                    "content": "Recibí pagos de forma segura con las plataformas más populares como Mercado Pago, Stripe, PayPal, ShopPay, etc."
+                },
+                {
+                    "title": "Migración entre plataformas",
+                    "content": "Las empresas necesitan migrar, a veces, su tienda actual a una plataforma que se adapte mejor a sus necesidades."
+                }
+                
+                
+            ],
+            "images": {
+                "image": {
+                    "alt": "Integración de ecommerce",
+                    "src": "/other-services-image-es.png"
+                }
+            }
+        }
+    },
+    "projects": {
+        "title": "Diseños Recientes",
+        "designs": [
+            {
+                "src":"/fashion.png",
+                "alt": "Diseño de ecommerce de ropa",
+                "link": "https://www.figma.com/file/qXS4UeHPCnR1c1AtH6wvix/Ecommerce-Template?node-id=0%3A1",
+                "title": "Ecommerce design for a fashion store."
+            },
+            {
+                "src":"/b&b.png",
+                "alt": "Whiskey ecommerce design",
+                "link": "https://www.figma.com/file/EwFksWWJwk9r2t9hBAEBjk/Licor-Theme?node-id=0%3A1",
+                "title": "Diseño de tienda de wiskey."
+            }
+        ]
+    },
+    "contact": {
+        "title": "Quiero saber más sobre tu proyecto.",
+        "subtitle": "Por favor completa el formulario y te responderé lo antes posible.",
+        "form": {
+            "name": {
+                "name": "userName",
+                "placeholder": "Nombre"
+            },
+            "lastName": {
+                "name": "userLastName",
+                "placeholder": "Apellido"
+            },
+            "email": {
+                "name": "userEmail",
+                "placeholder": "Email"
+            },
+            "phone": {
+                "name": "userPhone",
+                "placeholder": "Teléfono (WhatsApp)"
+            },
+            "country": {
+                "name": "userCountry",
+                "placeholder": "Pais"
+            },
+            "state": {
+                "name": "userState",
+                "placeholder": "Provincia"
+            },
+            "city": {
+                "name": "userCity",
+                "placeholder": "Ciudad"
+            },
+            "company": {
+                "name": "userCompany",
+                "placeholder": "Nombre o sitio web de la empresa"
+            },
+            "message": {
+                "name": "userMessage",
+                "placeholder": "Contame brevemente sobre tu proyecto"
+            },
+            "file": {
+                "name": "fileValue",
+                "placeholder": "Tenes requisitos especificos?"
+            },
+            "button": {
+                "name":"button",
+                "placeholder":"Enviar"
+            }
+        }
+    }
+}

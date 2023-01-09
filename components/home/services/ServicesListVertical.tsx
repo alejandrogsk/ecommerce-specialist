@@ -30,9 +30,12 @@ const ServicesListVertical = ({service}: ServiceListVerticalProps): ReactElement
                 {
                     
                     ctaVertical&&
-                <a  href={ctaVertical.link} className="text-center inline-block col-start-2 col-end-3 w-44	 font-medium mt-12 text-base md:text-lg lg:text-xl block  hover:text-white bg-black	hover:bg-primary linear duration-300 rounded text-white py-4 px-6 uppercase cursor-pointer	">
+                <div className='col-start-2 col-end-3 mt-4'>
+                    <a  href={ctaVertical.link} className="text-center inline-block font-medium mt-12 text-base md:text-lg lg:text-xl block  hover:text-white bg-black	hover:bg-primary linear duration-300 rounded text-white py-4 px-8 uppercase cursor-pointer	">
                     {ctaVertical.title}
                 </a>
+                </div>
+
                 }
             </div>
   )

@@ -4,9 +4,10 @@ import { FormData } from "../../../types/Contact";
 
 interface FormProps {
     formData: FormData;
+    locale: string;
 }
 
-const Form = ({ formData }: FormProps) => {
+const Form = ({ formData, locale }: FormProps) => {
     const initialState = {
         userName: "",
         userLastName: "",
@@ -49,7 +50,7 @@ const Form = ({ formData }: FormProps) => {
         let req = await fetch("/api/contact", {
             method: "POST",
             body: JSON.stringify(formValues),
-            headers: { "Content-type": "application/json; charset=UTF-8" },
+            headers: { "Content-type": "application/json; charset=UTF-8","locale":locale },
         });
         let res = await req.json();
         if (req.status === 200) {
