@@ -17,13 +17,13 @@
         "images":{
             "mockup": {
                 "alt": "ecommerce developmer specialiced in shopify",
-                "src": "/wine-2-moock.png",
+                "src": "/wine-2-mock.png",
                 "height": 550,
                 "width": 272
             },
             "image": {
                 "alt": "ecommerce developmer specialiced in shopify",
-                "src": "/wine-moock.png",
+                "src": "/wine-mock.png",
                 "height": 550,
                 "width": 272
             }

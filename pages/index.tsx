@@ -36,7 +36,7 @@ const Home: NextPage<HomeProps> = ({content,locale}) => {
   const { head, hero, platforms, companies, services, contact }: HomeContentI = content;
 
   return (
-    <div >
+    <div className="max-w-[1500px] mx-auto">
       <Head>
         <title>{head.title}</title>
         <meta name="description" content={head.description} />
