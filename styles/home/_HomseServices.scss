@@ -3,11 +3,11 @@
     & > div > div > .blob-1 {
         position: absolute;
         z-index: -1;
-        height: 600px;
+        height: 350px;
         width: auto;
-        right: -3rem;
-        top: -3rem;
-
+        right: -2rem;
+        top: -5rem;
+        //width:350px; right:-2rem; top:-5rem;
         @screen md {
             height: 450px;
             right: -3rem;
@@ -49,8 +49,8 @@
         & > .blob-1 {
             position: absolute;
             z-index: -1;
-            width: 550px;
-            top: -8rem;
+            width: 350px;
+            top: -16rem;
             right: -2rem;
             display: block;
             @screen md {
