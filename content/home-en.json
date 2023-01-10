@@ -16,13 +16,13 @@
         },
         "images":{
             "mockup": {
-                "alt": "Ecommerce designer specialized in wine stores",
+                "alt": "Category page design for an online wine store",
                 "src": "/wines-mock-2-en.png",
                 "height": 550,
                 "width": 272
             },
             "image": {
-                "alt": "Ecommerce developer specialiced in wine store",
+                "alt": "Product page design for an online wine store",
                 "src": "/wines-mock-1-en.png",
                 "height": 550,
                 "width": 272
@@ -89,7 +89,7 @@
             ],
             "images": {
                 "image": {
-                    "alt": "Ecommerce store designer",
+                    "alt": "Online watch store design",
                     "src": "/watches-mock-1-en.png",
                     "width": 600,
                     "height":312
@@ -119,13 +119,13 @@
             ],
             "images": {
                 "mockup": {
-                    "alt": "Ecommerce mobile design",
+                    "alt": "Category page design for an online shoe store",
                     "src": "/shoes-mock-2-en.png",
                     "height": 550,
                     "width": 272
                 },
                 "image": {
-                    "alt": "Ecommerce mobile design",
+                    "alt": "Product page design for an online shoe store",
                     "src": "/shoes-mock-1-en.png",
                     "height": 550,
                     "width": 272
@@ -168,7 +168,7 @@
             ],
             "images": {
                 "image": {
-                    "alt": "Ecommerce integration",
+                    "alt": "Social Media Sneakers Mockup",
                     "src": "/other-services-image.png"
                 }
             }

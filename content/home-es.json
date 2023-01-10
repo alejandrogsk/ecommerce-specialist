@@ -16,13 +16,13 @@
         },
         "images":{
             "mockup": {
-                "alt": "ecommerce developmer specialiced in shopify",
+                "alt": "Diseño de pagina de categorias de una tienda online de vino",
                 "src": "/wine-2-mock.png",
                 "height": 550,
                 "width": 272
             },
             "image": {
-                "alt": "ecommerce developmer specialiced in shopify",
+                "alt": "Diseño de pagina de producto de una tienda online de vino",
                 "src": "/wine-mock.png",
                 "height": 550,
                 "width": 272
@@ -67,7 +67,6 @@
     },
     "services": {
         "title": "¿Qué servicios de ecommerce ofrezco?",
-        
         "design": {
             "title": "Diseño de ecommerce",
             "ctaVertical": {
@@ -90,7 +89,7 @@
             ],
             "images": {
                 "image": {
-                    "alt": "Diseñador de tiendas online",
+                    "alt": "Diseño de tienda online de relojes",
                     "src": "/watches-mock.png",
                     "width": 600,
                     "height":312
@@ -116,13 +115,13 @@
             ],
             "images": {
                 "mockup": {
-                    "alt": "Ecommerce developer",
+                    "alt": "Diseño de pagina de categorias de una tienda online de zapatillas",
                     "src": "/shoes-2-mock.png",
                     "height": 550,
                 "width": 272
                 },
                 "image": {
-                    "alt": "Ecommerce store developer",
+                    "alt": "Diseño de pagina de producto de una tienda online de zapatillas",
                     "src": "/shoes-mock.png",
                     "height": 550,
                     "width": 272
@@ -167,7 +166,7 @@
             ],
             "images": {
                 "image": {
-                    "alt": "Integración de ecommerce",
+                    "alt": "Mockup de zapatillas en redes sociales",
                     "src": "/other-services-image-es.png"
                 }
             }
@@ -184,9 +183,9 @@
             },
             {
                 "src":"/b&b.png",
-                "alt": "Whiskey ecommerce design",
+                "alt": "Diseño de ecommerce de Whiskey",
                 "link": "https://www.figma.com/file/EwFksWWJwk9r2t9hBAEBjk/Licor-Theme?node-id=0%3A1",
-                "title": "Diseño de tienda de wiskey."
+                "title": "Diseño de tienda de whiskey."
             }
         ]
     },
