@@ -1,11 +1,16 @@
 import Image from "next/image";
-import React, { ReactElement } from "react";
+import React, { ReactElement, useRef } from "react";
 import ServicesListVertical from "./ServicesListVertical";
 import {ServiceI} from "../../../types/Services";
+import { useInView } from "framer-motion";
+import ServicesSingleImage from "./animated/ServicesSingleImage";
 interface DesignServicesProps {
     service: ServiceI;
 }
 const DesignServices = ({service}:DesignServicesProps): ReactElement => {
+    const imageRef = useRef(null);
+    const isInView = useInView(imageRef, { once: true });
+
     return(
         <div className="home-design-section relative grid gap-16 md:gap-0 grid-cols-1 md:grid-cols-2 py-16 md:py-28 lg:py-40">
         
@@ -16,15 +21,9 @@ const DesignServices = ({service}:DesignServicesProps): ReactElement => {
         {/**Images */}
         <div className="relative my-16 md:my-0">
             <div className="relative h-full flex justify-center items-center">
-                <div>
-                    <Image
-                        src={service.images.image.src}
-                        alt={service.images.image.alt}
-                        width={service.images.image.width}
-                        height={service.images.image.height}
-                        layout="intrinsic"
-                        />
-                </div>
+                <ServicesSingleImage image={service.images.image}/>
+                
+
                 <svg
                     className="blob-1"
                     width="696"
@@ -156,5 +155,8 @@ const DesignServices = ({service}:DesignServicesProps): ReactElement => {
         </div>
     );
 };
+
+
+
 
 export default DesignServices;

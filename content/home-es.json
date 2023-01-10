@@ -167,7 +167,9 @@
             "images": {
                 "image": {
                     "alt": "Mockup de zapatillas en redes sociales",
-                    "src": "/other-services-image-es.png"
+                    "src": "/other-services-image-es.png",
+                    "width":544,
+                    "height":544
                 }
             }
         }

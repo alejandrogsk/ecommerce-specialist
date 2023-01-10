@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React, { ReactElement } from 'react'
 import { ServiceI } from '../../../types/Services';
+import ServicesSingleImage from './animated/ServicesSingleImage';
 import ServicesListHorizontal from './ServicesListHorizontal';
 import ServicesListVertical from './ServicesListVertical'; 
 
@@ -16,14 +17,9 @@ const OtherServices = ({service}:OtherServicesProps):ReactElement => {
     
     {/**Images */}
     <div className="relative my-16 md:my-0">
-        <div className="relative flex justify-center align-center">
+        <div className="relative h-full flex justify-center items-center">
+<ServicesSingleImage image={service.images.image}/>
 
-        <Image
-            src={service.images.image.src}
-            width="544"
-            height="544"
-            layout="intrinsic"
-        />
             
             <svg
                 className="blob-1"

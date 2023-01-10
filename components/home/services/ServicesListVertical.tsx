@@ -9,20 +9,8 @@ interface ServiceListVerticalProps {
 const ServicesListVertical = ({service}: ServiceListVerticalProps): ReactElement => {
     const { title, list, ctaVertical } = service;
 
-    const titleh3Ref = useRef(null);
-    const isInView = useInView(titleh3Ref, { once: true });
     return (
     <div className='grid grid-cols-[35px_1fr]'>
-                {/* <h3 
-                ref={titleh3Ref}
-                style={{
-                    transform: isInView ? "none" : "translateY(100px)",
-                    opacity: isInView ? 1 : 0,
-                    transition: `all 500ms`,
-                }}
-                className="col-start-2 col-end-3 text-2xl lg:text-3xl uppercase font-semibold">
-                    {title}
-                </h3> */}
                 <TitleH3Animated title={title} />
 
                 <div className="grid grid-cols-1 col-start-1 col-end-3">

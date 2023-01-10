@@ -169,7 +169,9 @@
             "images": {
                 "image": {
                     "alt": "Social Media Sneakers Mockup",
-                    "src": "/other-services-image.png"
+                    "src": "/other-services-image.png",
+                    "width":544,
+                    "height":544
                 }
             }
         }
