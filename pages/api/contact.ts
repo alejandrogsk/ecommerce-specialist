@@ -3,8 +3,9 @@ import nodemailer from "nodemailer";
 
 export default async function contactForm(req:NextApiRequest,res:NextApiResponse){
     let language = req.headers['locale'];
+    
     try {
-
+        
         let  transporter = nodemailer.createTransport({
             port: 465,
             host: process.env.COMPANY_HOST,
@@ -14,6 +15,7 @@ export default async function contactForm(req:NextApiRequest,res:NextApiResponse
             },
             secure: true,
         });
+        
         const {
             userName,
             userLastName,
@@ -25,6 +27,7 @@ export default async function contactForm(req:NextApiRequest,res:NextApiResponse
             userCity,
             userMessage
         } = req.body;
+        
         let message = {
             from: `${userName} ${userLastName}`,
             to: process.env.USER_NAME,

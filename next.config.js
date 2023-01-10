@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   env: {
-    GTM_ID: 'GTM-M5HV9PR',
+    GTM_ID: 'GTM-PX7MB4F',
   },
   i18n: {
     // These are all the locales you want to support in
