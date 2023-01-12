@@ -11,7 +11,7 @@ import Services from "../components/home/Services";
 import {HeadContent } from "../types/Head";
 import { ServiceI } from "../types/Services";
 import { ContactI } from "../types/Contact";
-import Projects from '../components/home/Projects';
+//import Projects from '../components/home/Projects';
 import Contact from '../components/home/Contact';
 import Footer from '../components/layout/Footer';
 interface HomeContentI {
@@ -44,7 +44,7 @@ const Home: NextPage<HomeProps> = ({content,locale}) => {
       
       <main className='overflow-x-hidden' >  
         <div className='z-0 hidden md:block h-60 w-36 rotate-45 -translate-x-28 	-translate-y-28 	 absolute bg-primary'></div>
-        <Navigation />
+        <Navigation  language={locale}/>
         <HeroSection hero={hero} />
         <Platforms platforms={platforms} />
         <Companies companies={companies}/>

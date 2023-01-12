@@ -1,8 +1,48 @@
 import Link from 'next/link';
-import React, { useEffect } from 'react'
+import React, { ReactComponentElement, useEffect } from 'react'
 
-const Navigation = () => {
+
+const menuItemsEn = [
+  {
+    id: "#companies",
+    title: "Companies",
+  },
+  {
+    id: "#services",
+    title: "Services",
+  },
+  {
+    id: "#contact",
+    title: "Contact Me",
+  }
+
+]
+
+const menuItemsEs = [
+  {
+    id: "#companies",
+    title: "Empresas",
+  },
+  {
+    id: "#services",
+    title: "Servicios",
+  },
+  {
+    id: "#contact",
+    title: "Contactame",
+  }
+
+]
+
+const Navigation = ({language}:any) => {
   const [ isOpen, setIsOpen ] = React.useState(false);
+  const [ menu, setMenu ] = React.useState(menuItemsEn);
+
+  React.useEffect(() => {
+    (language === "es")
+    ?setMenu(menuItemsEs)
+    :setMenu(menuItemsEn)
+  }, [language])
 
   const handleMenu = () => {
     setIsOpen(!isOpen);
@@ -30,18 +70,13 @@ const Navigation = () => {
     
     <div className={`${isOpen ? 'bloack' : 'hidden'} w-full md:block md:w-auto bg-white`} id="navbar-default">
       <ul className="flex flex-col p-4 mt-4  bg-white rounded-lg border border-gray-100 md:hover:text-primary md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  ">
-        <li>
-          <a onClick={()=>setIsOpen(false)} href="#companies" className="text-xl block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ">Companies</a>
-        </li>
-        <li>
-          <a onClick={()=>setIsOpen(false)} href="#services" className="text-xl block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ">Services</a>
-        </li>
-        {/* <li>
-          <a onClick={()=>setIsOpen(false)} href="#projects" className="text-xl block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ">Projects</a>
-        </li> */}
-        <li>
-          <a onClick={()=>setIsOpen(false)} href="#contact" className="text-xl block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ">Contact Me</a>
-        </li>
+        {
+          menu.map((item, index) =>(
+            <li key={index}>
+            <a onClick={()=>setIsOpen(false)} href={item.id} className="text-xl block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ">{item.title}</a>
+          </li>
+          ))
+        }
       </ul>
     </div>
   </div>

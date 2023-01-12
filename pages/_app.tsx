@@ -3,8 +3,6 @@ import { useEffect } from 'react';
 import type { AppProps } from 'next/app'
 import TagManager, {TagManagerArgs} from "react-gtm-module";
 
-
-
 const tagManagerArgs: TagManagerArgs = {
   gtmId: process.env.GTM_ID || "",
 };
