@@ -48,16 +48,7 @@ const Home: NextPage<HomeProps> = ({content,locale}) => {
         <HeroSection hero={hero} />
         <Platforms platforms={platforms} />
         <Companies companies={companies}/>
-        <Services services={services} />
-        {/* <Projects projects={projects}/> */}
-
-        {/* <section className='px-8 md:px-12 lg:px-28 py-40 bg-primary'>
-          <h2 className='text-3xl md:text-4xl lg:text-5xl font-semibold text-white'>No solo te ayudo a crear tu tienda...</h2>
-          <p className='text-lg lg:text-xl mt-8 max-w-[100%] md:max-w-[60%] text-white'>
-            Encarar un proyecto de ecommerce de forma profesional no es solo crear una tienda, hay muchos aspectos que tener en cuenta, por ejemplo, ¿Sabes cuales son las metricas más importantes que debes ver en una tienda onlie?, ¿Sabrias como medirlas?, ¿Sabrias como distribuir tus productos a travez de las diferentes redes sociales?, este es el tipo de interrogantes que te ayudaré a resolver como parte de mis servicios.
-          </p>
-        </section> */}
-        
+        <Services services={services} /> 
         <Contact contact={contact} locale={locale} />
       </main>
 

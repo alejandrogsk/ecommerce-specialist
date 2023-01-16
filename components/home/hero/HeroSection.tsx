@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import React, {ReactElement} from 'react'
+import React, {ReactElement, useRef} from 'react'
 import ContactCard from './ContactCard';
-import { motion, AnimatePresence } from "framer-motion"
+import { motion, AnimatePresence, useInView } from "framer-motion"
 
 export interface HeroContent {
     title: string;
@@ -57,9 +57,10 @@ const HeroSection = ({hero}:HeroSectionProps ): ReactElement => {
         </div>
 
         <div className=' mt-20 md:mt-0 px-8  md:px-12'>
-          <div className='flex align-center justify-center'>
+          <HomeHeroImages mockup={hero.images.mockup} image={hero.images.image} />
+          {/* <div className='flex align-center justify-center'>
             <motion.div 
-            initial={{ x:25, y: 375, opacity: 0 }}
+            initial={{ x: 25, y: 375, opacity: 0 }}
             animate={{ y:75, opacity: 1, transition:{ duration:1} }}
             //className='translate-x-[15px] md:translate-x-[50px]  translate-y-[0px] md:translate-y-[75px]'
             >
@@ -83,7 +84,7 @@ const HeroSection = ({hero}:HeroSectionProps ): ReactElement => {
                 layout='intrinsic'
               />  
             </motion.div>
-          </div>
+          </div> */}
         </div>
 
        </section>
@@ -91,3 +92,49 @@ const HeroSection = ({hero}:HeroSectionProps ): ReactElement => {
 }
 
 export default HeroSection
+
+
+
+const HomeHeroImages = ({image, mockup}:any) => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+  
+  return (
+    <div className='flex align-center justify-center'>
+            <div 
+            ref={ref}
+            style={{
+              transform: isInView ? "translate(25px, 75px)" : "translate(25px, 300px)",
+              opacity: isInView ? 1 : 0,
+              transition: `all 1s`,
+          }}
+          >
+            
+  
+              <Image 
+               src={mockup.src} 
+               width={mockup.width} 
+               height={mockup.height} 
+               alt={mockup.alt}
+                layout='intrinsic'
+              />  
+            </div>
+          <div 
+            style={{
+              transform: isInView ? "translate(-25px, 50px)" : "translate(-25px, 300px)",
+              opacity: isInView ? 1 : 0,
+              transition: `all 1s`,
+              transitionDelay: '300ms'
+            }}
+          >
+            <Image 
+                src={image.src} 
+                width={image.width} 
+                height={image.height} 
+                alt={image.alt}
+                layout='intrinsic'
+              />
+            </div>
+          </div>
+  )
+}

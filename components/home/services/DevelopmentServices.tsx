@@ -55,7 +55,7 @@ const ServicesDoubleImages = ({image, mockup}:any) => {
             <div 
             ref={ref}
             style={{
-              transform: isInView ? "translate(25px, -25px)" : "translate(25px, 300px)",
+              transform: isInView ? "translate(25px, 25px)" : "translate(25px, 300px)",
               opacity: isInView ? 1 : 0,
               transition: `all 700ms`,
           }}
@@ -75,6 +75,7 @@ const ServicesDoubleImages = ({image, mockup}:any) => {
               transform: isInView ? "translate(-25px, 0px)" : "translate(-25px, 300px)",
               opacity: isInView ? 1 : 0,
               transition: `all 700ms`,
+              transitionDelay: '300ms'
           }}
             className='translate-x-[-15px] md:translate-x-[-50px]  translate-y-[-25px] md:translate-y-[50px]'>
             <Image 
