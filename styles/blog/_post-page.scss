@@ -1,0 +1,37 @@
+#post-page {
+    width: 80%;
+    max-width: 1440px;
+    margin: 5rem auto;
+
+    & > h1 {
+        margin-top: 2rem;
+        font-size: 2rem;
+        @screen md {   
+            font-size: 3rem;
+        }
+    }
+
+    & > h2 {
+        font-size: 1.25rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+
+        @screen md {   
+            font-size: 1.75rem;
+        }
+    }
+
+    & > p {
+        font-size: 1rem;
+        margin-bottom: .5rem;
+
+        @screen md {   
+            font-size: 1.2rem;
+        }
+    }
+
+    & > ul {
+        margin-left: 2rem;
+        list-style:disc;
+    }
+}

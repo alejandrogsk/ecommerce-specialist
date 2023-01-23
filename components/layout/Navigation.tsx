@@ -4,15 +4,15 @@ import React, { ReactComponentElement, useEffect } from 'react'
 
 const menuItemsEn = [
   {
-    id: "#companies",
+    route: "/#companies",
     title: "Companies",
   },
   {
-    id: "#services",
+    route: "/#services",
     title: "Services",
   },
   {
-    id: "#contact",
+    idroute: "/#contact",
     title: "Contact Me",
   }
 
@@ -20,16 +20,20 @@ const menuItemsEn = [
 
 const menuItemsEs = [
   {
-    id: "#companies",
+    route: "/#companies",
     title: "Empresas",
   },
   {
-    id: "#services",
+    route: "/#services",
     title: "Servicios",
   },
   {
-    id: "#contact",
+    route: "/#contact",
     title: "Contactame",
+  },
+  {
+    route: "/blog",
+    title: "Blog",
   }
 
 ]
@@ -72,8 +76,8 @@ const Navigation = ({language}:any) => {
       <ul className="flex flex-col p-4 mt-4  bg-white rounded-lg border border-gray-100 md:hover:text-primary md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  ">
         {
           menu.map((item, index) =>(
-            <li key={index}>
-            <a onClick={()=>setIsOpen(false)} href={item.id} className="text-xl block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ">{item.title}</a>
+          <li key={index}>
+            <a onClick={()=>setIsOpen(false)} href={item.route} className="text-xl block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ">{item.title}</a>
           </li>
           ))
         }
