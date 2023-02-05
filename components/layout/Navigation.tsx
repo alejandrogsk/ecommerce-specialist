@@ -4,15 +4,15 @@ import React, { ReactComponentElement, useEffect } from 'react'
 
 const menuItemsEn = [
   {
-    route: "/#companies",
+    route: "#companies",
     title: "Companies",
   },
   {
-    route: "/#services",
+    route: "#services",
     title: "Services",
   },
   {
-    idroute: "/#contact",
+    route: "#contact",
     title: "Contact Me",
   }
 
