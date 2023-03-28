@@ -19,7 +19,7 @@ const Services = ({services}: ServicesProps): ReactElement => {
   const titleRef = useRef(null);
   const isInView = useInView(titleRef, { once: true });
   return (
-    <section id="services" className='home-services-section min-h-screen px-8 md:px-12 lg:px-28 py-40 grid grid-cols-1 justify-center align-center'>
+    <section id="services" className='home-services-section min-h-screen px-8 md:px-12 lg:px-28 py-40 grid grid-cols-1 justify-center align-center place-content-center'>
         <h2 
         ref={titleRef}
         style={{

@@ -13,7 +13,8 @@ const Companies = ({ companies }: CompaniesProps): ReactElement => {
     const titleRef = useRef(null);
     const isInView = useInView(titleRef, { once: true });
     return (
-        <section  id="companies" className="min-h-screen home-companies-section relative bg-black px-8 md:px-12 lg:px-20 py-40 grid grid-cols-1 justify-center align-center text-white">
+        <section  id="companies" className="min-h-screen home-companies-section relative bg-black px-8 md:px-12 lg:px-20 py-40 grid grid-cols-1 justify-center align-center text-white
+        place-content-center">
             <h2
             ref={titleRef}
             style={{
